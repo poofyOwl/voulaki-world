@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Voulaki"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  email = "stavy92@hotmail.com"
+  name = "Voulaki"
+  image = "img/blowfish_logo.png"
+  imageQuality = 96
+  # headline = "Welcome to my world."
+  bio = "My bio"
+  links = [
+    { instagram = "https://instagram.com/_voulaki_" },
+    { bandcamp = "https://voulaki.bandcamp.com" },
+    { soundcloud = "https://soundcloud.com/to_voulaki" },
+    { youtube = "https://youtube.com/@to_voulaki" },
+    { github = "https://github.com/poofyOwl" },
+    { email = "mailto:stavy92@hotmail.com" }
+  ]
