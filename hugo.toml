@@ -2,3 +2,7 @@ baseURL = 'http://voulaki.world/'
 languageCode = 'en-us'
 title = 'Voulaki'
 theme = 'blowfish'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
