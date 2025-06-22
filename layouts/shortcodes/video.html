@@ -1,0 +1,10 @@
+{{- $src := "" -}}
+{{- if .Page.Resources.GetMatch (.Get 0) -}}
+  {{- $src = .Page.Resources.GetMatch (.Get 0) | relURL -}}
+{{- else -}}
+  {{- $src = (printf "/%s" (.Get 0)) | relURL -}}
+{{- end -}}
+<video width="100%" controls>
+  <source src="{{ $src }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
