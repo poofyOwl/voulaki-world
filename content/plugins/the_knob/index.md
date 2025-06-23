@@ -35,19 +35,16 @@ It features 3 different modes, Violet, Teal, and Crimson, each offering a unique
 
 **FX Chain: HPF -> Distortion -> Reverb -> Delay -> EQ**
 
-- HPF goes from 10 Hz to 150 Hz as the knob is turned up
-- Distortion uses following Waveshaper Transfer Function: `tanh(sin(x))` 
+- HPF: goes from 10 Hz to 150 Hz as the knob is turned up
+- Distortion: uses the following transfer function: `tanh(sin(x))` 
 - Reverb:
-  - Small room size
-  - Low width
-  - Long freeze
+  - Small room, low spread
   - Less damping as the knob is turned up
   - Wet goes from 0% to 50% as the knob is turned up
- - Delay:
-  - Medium delay time
+- Delay:
+  - Medium delay time with some feedback
   - Wet goes from 0% to 60% as the knob is turned up
-  - Medium feedback
- - EQ:
+- EQ:
   - Reduction at 400 Hz
   - Boost at 10 kHz
 
@@ -55,16 +52,13 @@ It features 3 different modes, Violet, Teal, and Crimson, each offering a unique
 
 **FX Chain: HPF -> Distortion -> Delay -> Reverb -> EQ**
 
-- HPF goes from 10 Hz to 150 Hz as the knob is turned up
-- Distortion uses following Waveshaper Transfer Function: `tanh(x)` 
+- HPF: goes from 10 Hz to 150 Hz as the knob is turned up
+- Distortion: uses the following transfer function: `tanh(x)` 
 - Delay:
-  - Short delay time
+  - Short delay time with high feedback
   - Wet goes from 0% to 50% as the knob is turned up
-  - High feedback
 - Reverb:
-  - Medium room size
-  - Medium width
-  - Short freeze 
+  - Medium room, medium spread 
   - Less damping as the knob is turned up
   - Wet goes from 0% to 80% as the knob is turned up
 - EQ:
@@ -75,20 +69,17 @@ It features 3 different modes, Violet, Teal, and Crimson, each offering a unique
 
 **FX Chain: HPF -> Delay -> Reverb -> Distortion -> EQ**
 
-- HPF goes from 10 Hz to 150 Hz as the knob is turned up
+- HPF: goes from 10 Hz to 150 Hz as the knob is turned up
 - Delay:
-    - Long delay time
+    - Long delay time with some feedback
     - Wet goes from 0% to 100% as the knob is turned up
-    -Feedback: 0 to 0.25
- - Reverb:
-    - Big room size
-    - High width
-    - Short freeze
+- Reverb:
+    - Big room, high spread
     - More damping as the knob is turned up
     - Wet goes from 0% to 100% as the knob is turned up
-- Distortion uses following Waveshaper Transfer Function: `tanh(x)` 
+- Distortion: uses the following transfer function: `tanh(x)` 
 - EQ:
-  - HPF goes from from 10 Hz to 111 Hz as the knob is turned up
-  - LPF goes from from 20 kHz to 2500 Hz as the knob is turned up
+  - HPF that goes from from 10 Hz to 111 Hz as the knob is turned up
+  - LPF that goes from from 20 kHz to 2500 Hz as the knob is turned up
   - Boost at 177 Hz
   - Boost at 1777 Hz
