@@ -40,8 +40,8 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [footer]
   showMenu = false
-  showCopyright = false
-  showThemeAttribution = false
+  showCopyright = true
+  showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
