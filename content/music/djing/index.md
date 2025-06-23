@@ -3,9 +3,6 @@ title: DJ Mixes & Sets
 description: DJ Mixes & Sets
 weight: 20
 ---
-
-Below are the DJ mixes and recorded sets I've released over the years.
-
 ### Praise Her, the Fire Keeper (Oct 2024)
 
 This was my application for Bass Coast Festival 2025.
