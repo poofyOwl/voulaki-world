@@ -6,5 +6,5 @@ weight: 40
 A cover I made of the Cybersix theme song.
 
 <audio controls>
-  <source src="/cybersix.wav" type="audio/wav">
+  <source src="music/productions/released/use_your_voice/cybersix.wav" type="audio/wav">
 </audio>

@@ -6,5 +6,5 @@ weight: 10
 Mixdown of a cover of Another Brick In The Wall.
 
 <audio controls>
-  <source src="/anotherbrick.wav" type="audio/wav">
+  <source src="music/productions/released/use_your_voice/anotherbrick.wav" type="audio/wav">
 </audio>

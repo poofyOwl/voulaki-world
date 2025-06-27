@@ -6,5 +6,5 @@ weight: 20
 Master of Tell Me by Belle Gunz.
 
 <audio controls>
-  <source src="/tellme.wav" type="audio/wav">
+  <source src="music/productions/released/use_your_voice/tellme.wav" type="audio/wav">
 </audio>
