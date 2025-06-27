@@ -27,7 +27,7 @@
   <div class="flex items-center justify-between">
     {{/* Copyright */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      <p class="text-sm text-neutral-500 dark:text-neutral-400" style="padding-right: 85px;">
         {{- with replace .Site.Params.copyright "{ year }" now.Year }}
           {{ . | markdownify }}
         {{- else }}
@@ -39,10 +39,10 @@
     {{ end }}
 
     <!-- Visuals cred -->
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
-        All the visual art used on this site was created by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          All the visual art used on this site was created by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
           href="https://www.pexels.com/@anniroenkae/gallery/" target="_blank" rel="noopener noreferrer"> Anni Roenkae</a>.
-      </p>
+        </p>
 
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
