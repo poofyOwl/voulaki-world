@@ -11,15 +11,10 @@ The Knob is an audio effect plugin I developed using the [JUCE](https://juce.com
 
 It features 3 different modes, Violet, Teal, and Crimson, each offering a unique effect to your sounds.
 
-<span>
-    <img src="/theknob_violet.png" alt="Violet" style="width:33.33%;float:left;padding:5px;">
-</span>
-<span>
-    <img src="/theknob_teal.png" alt="Teal" style="width:33.33%;float:left;padding:5px;">
-</span>
-<span>
-    <img src="/theknob_crimson.png" alt="Crimson" style="width:33.33%;float:left;padding:5px;">
-</span>
+
+{{< inline_image path=theknob_violet.png width=33.33 alt="Violet Mode" >}}
+{{< inline_image path=theknob_teal.png width=33.33 alt="Teal Mode" >}}
+{{< inline_image path=theknob_crimson.png width=33.33 alt="Crimson Mode" >}}
 
 <br><br><br><br><br><br>
 

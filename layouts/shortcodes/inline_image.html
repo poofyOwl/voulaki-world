@@ -1,0 +1,5 @@
+<span>
+    {{- with .Page.Resources.Get (.Get "path") }}
+        <img src="{{ .RelPermalink }}" style="width:{{ $.Get "width" }}%;float:left;padding:5px;" alt="{{ $.Get "alt" }}">
+    {{- end -}}
+</span>
