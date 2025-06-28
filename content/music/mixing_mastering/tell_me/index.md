@@ -5,4 +5,4 @@ weight: 20
 ---
 Master of Tell Me by Belle Gunz.
 
-{{< audio "music/mixing_mastering/tell_me/tellme.wav" >}}
+{{< spotify type="track" id="4WHolGcEQSt7J4fx5BUbWB" >}}
