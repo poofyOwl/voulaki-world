@@ -1,3 +1,9 @@
-<audio controls preload="{{ .Get "preload" | default "metadata" }}">
-{{ with .Get "src" }}<source src="{{ .  | relURL }}" type="audio/mpeg">{{ end }}
+{{- $src := "" -}}
+{{- if .Page.Resources.GetMatch (.Get 0) -}}
+  {{- $src = .Page.Resources.GetMatch (.Get 0) | relURL -}}
+{{- else -}}
+  {{- $src = (printf "/%s" (.Get 0)) | relURL -}}
+{{- end -}}
+<audio controls>
+    <source src="{{ $src }}" type="audio/mpeg">
 </audio>
